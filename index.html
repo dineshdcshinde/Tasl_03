@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Nav Section -->
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="hero">
+        <!-- left Section -->
+        <div class="left">
+          <h1>Astra – Reach for the stars with stellar productivity tools.</h1>
+          <p>
+            Steamline your tasks, manage your schedule & boost your productivity
+            on-the-go.
+          </p>
+          <div class="btn-sec">
+            <button class="btn-app">Get On App Store</button>
+            <button class="btn-google">Get it on Google Play Store</button>
+          </div>
+        </div>
+        <!-- Right section -->
+        <div class="right">
+          <img src="./asset/photos/Logo.png" alt="app-logo" />
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="features">
+        <h2>
+          Why You'll Love Our App
+          <span class="role"></span>
+        </h2>
+
+        <div class="features-card">
+          <div class="card">
+            <h3>Task Management</h3>
+            <p>Stay organized with intultive task management.</p>
+          </div>
+
+          <div class="card">
+            <h3>Device Syncing</h3>
+            <p>Sync seamlesly across all your devices.</p>
+          </div>
+
+          <div class="card">
+            <h3>Custom Workflows</h3>
+            <p>Customize your workflow with powerfull setting.</p>
+          </div>
+
+          <div class="card">
+            <h3>Offline Mode</h3>
+            <p>Work anytime even without an internet connection.</p>
+          </div>
+
+          <div class="card">
+            <h3>Reminders & Notification</h3>
+            <p>Get timely reminders to keep you on track.</p>
+          </div>
+
+          <div class="card">
+            <h3>Collaborations Tools</h3>
+            <p>Collaborate with you team, share tasks effortlessly.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer>
+        <p><span>&COPY;</span>2024 Astra All rights reserved.</p>
+      </footer>
+    </div>
+    <!-- Running text -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Task Management",
+          "Device Syncing",
+          "Custom Workflows",
+          "Offline Mode",
+          "Reminders & Notification",
+          "Collaborations Tools",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
